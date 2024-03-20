@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    animation: change 10s infinite ease-in-out;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 50px;
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: aqua;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    justify-content: space-between;
+    position: relative;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    color: #0ef;
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.home-content h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: lightcyan;
+    margin-bottom: 30px;
+}
+
+.home-content h3 span{
+    color: lightblue;
+}
+
+.home-content p {
+    font-size: 20px;
+    color: white;
+}
+
+.home-content .btn-box {
+    width: 220px;
+    height: 50px;
+    background: transparent;
+    background: lightblue;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 50px;
+    position: relative;
+    justify-content: center;
+}
+
+.social-media a{
+    size: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+}
+
+.social-media a:hover {
+    background: #0ef;
+    color: #1f242d;
+    box-shadow: 0 0 20px #0ef;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(background2.jpg);
+    }
+    33.33%
+    {
+        background-image: url(background3.jpg);
+    }
+    66.66%
+    {
+        background-image: url(background4.jpg);
+    }
+    100%
+    {
+        background-image: url(background5.jpg);
+    }
+}
