@@ -183,15 +183,15 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1200px; /* Adjust max-width based on your design */
-  margin: 0 auto; /* Center align */
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
 }
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 768px) {
   .container {
@@ -200,5 +200,5 @@ body {
 }
 img {
   max-width: 100%;
-  height: auto; /* Maintain aspect ratio */
+  height: auto;
 }
