@@ -181,3 +181,24 @@ body {
 .form-container input[type="submit"]:hover {
     background-color: #45a049;
 }
+.container {
+  width: 100%;
+  max-width: 1200px; /* Adjust max-width based on your design */
+  margin: 0 auto; /* Center align */
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
