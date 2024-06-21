@@ -139,3 +139,9 @@ body{
   .footer a:hover {
     text-decoration: underline;
   }
+@media (max-width: 576px) {
+    .input-box .input-field {
+        width: 100%;
+        margin: 10px 0;
+    }    
+}
