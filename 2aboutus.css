@@ -127,3 +127,9 @@ td,th{
       margin: 20px;
     }
   }
+@media (max-width: 576px) {
+    .input-box .input-field {
+        width: 100%;
+        margin: 10px 0;
+    }    
+}
